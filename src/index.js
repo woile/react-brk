@@ -1,9 +1,18 @@
-import React, {Component} from 'react'
+import React from 'react';
+import Responsive from 'react-responsive';
 
-export default class extends Component {
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
+
+export const Desktop = props => <Responsive {...props} minWidth={992} />
+export const Tablet = props => <Responsive {...props} minWidth={768} maxWidth={991} />
+export const Mobile = props => <Responsive {...props} maxWidth={767} />
+export const Default = props => <Responsive {...props} minWidth={768} />
+
+
+const breakpoints = () => {
+  const custom = {}
+  return {
+    register: () => {
+
+    }
   }
 }

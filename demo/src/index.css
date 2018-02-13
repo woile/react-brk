@@ -1,0 +1,37 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.jumbo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.box {
+  min-height: 100px;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop {
+  background-color: #cce5ff;
+}
+
+.default {
+  background-color: #e2e3e5;
+}
+
+.mobile {
+  background-color: #c3e6cb;
+}
+
+.tablet {
+  background-color: #f8d7da;
+}

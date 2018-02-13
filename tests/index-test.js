@@ -2,9 +2,14 @@ import expect from 'expect'
 import React from 'react'
 import {render, unmountComponentAtNode} from 'react-dom'
 
-import Component from 'src/'
+import {
+  Desktop,
+  Tablet,
+  Mobile,
+  Default,
+} from 'src/'
 
-describe('Component', () => {
+describe('Breakpoints', () => {
   let node
 
   beforeEach(() => {
@@ -12,12 +17,80 @@ describe('Component', () => {
   })
 
   afterEach(() => {
+    viewport.reset()
     unmountComponentAtNode(node)
   })
 
-  it('displays a welcome message', () => {
-    render(<Component/>, node, () => {
-      expect(node.innerHTML).toContain('Welcome to React components')
+  it('Desktop renders', () => {
+    viewport.set(1080, 960)
+    render(<Desktop>holis</Desktop>, node, () => {
+      expect(node.innerHTML).toExist()
     })
+  })
+
+  it('Tablet renders', () => {
+    viewport.set(768, 640)
+    render(<Tablet>holis</Tablet>, node, () => {
+      expect(node.innerHTML).toExist()
+    })
+  })
+
+  it('Mobile renders', () => {
+    viewport.set(766, 640)
+    render(<Mobile>holis</Mobile>, node, () => {
+      expect(node.innerHTML).toExist()
+    })
+  })
+
+  it('Default renders', () => {
+    viewport.set(1080, 960)
+    render(<Default>holis</Default>, node, () => {
+      expect(node.innerHTML).toExist()
+    })
+  })
+
+  it('Renders Desktop and Default', () => {
+    viewport.set(1080, 960)
+    render(
+      (<div>
+              <Desktop>Desktop</Desktop>
+              <Tablet>Tablet</Tablet>
+              <Mobile>Mobile</Mobile>
+              <Default>Default</Default>
+            </div>), node,
+      () => {
+        expect(node.innerHTML).toContain('DesktopDefault')
+      }
+    )
+  })
+
+  it('Renders only mobile', () => {
+    viewport.set(766, 640)
+    render(
+      (<div>
+              <Desktop>Desktop</Desktop>
+              <Tablet>Tablet</Tablet>
+              <Mobile>Mobile</Mobile>
+              <Default>Default</Default>
+            </div>), node,
+      () => {
+        expect(node.innerHTML).toContain('Mobile')
+      }
+    )
+  })
+
+  it('Renders tablet and default', () => {
+    viewport.set(770, 640)
+    render(
+      (<div>
+              <Desktop>Desktop</Desktop>
+              <Tablet>Tablet</Tablet>
+              <Mobile>Mobile</Mobile>
+              <Default>Default</Default>
+            </div>), node,
+      () => {
+        expect(node.innerHTML).toContain('TabletDefault')
+      }
+    )
   })
 })
