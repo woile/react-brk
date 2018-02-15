@@ -23,13 +23,13 @@ All the credit goes to the folks of [react-responsive](https://github.com/contra
 
 ## Breakpoints
 
-`Desktop` minWidth={992}
+`Desktop` minWidth: 992
 
-`Tablet` minWidth={768} maxWidth={991}
+`Tablet` minWidth: 768, maxWidth: 991
 
-`Mobile` maxWidth={767}
+`Mobile` maxWidth: 767
 
-`Default` minWidth={768}
+`Default` minWidth: 768
 
 ## Example
 
@@ -53,11 +53,11 @@ All the credit goes to the folks of [react-responsive](https://github.com/contra
     )
 
 
-[build-badge]: https://img.shields.io/travis/woile/react-brk/master.png?style=flat-square
-[build]: https://travis-ci.org/woile/react-brk
+[build-badge]: https://img.shields.io/travis/Woile/react-brk/master.png?style=flat-square
+[build]: https://travis-ci.org/Woile/react-brk
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/npm-package
 
-[coveralls-badge]: https://img.shields.io/coveralls/woile/react-brk/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/woile/react-brk
+[coveralls-badge]: https://img.shields.io/coveralls/Woile/react-brk/master.png?style=flat-square
+[coveralls]: https://coveralls.io/github/Woile/react-brk
