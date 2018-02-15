@@ -1,13 +1,12 @@
-# breakpoints
+# React Breakpoints (react-brk)
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-
 ## About
 
-Easy, ready to use, react media queries taken from [react-responsive](https://github.com/contra/react-responsive) and packed here.
+Easy, ready to use, well defined, react media queries taken from [react-responsive](https://github.com/contra/react-responsive) and packed here.
 
 This package lacks originality and does not introduce anything new.
 
@@ -18,13 +17,23 @@ All the credit goes to the folks of [react-responsive](https://github.com/contra
 
 ## Installation
 
-`npm install react-breakpoints --save`
+`npm install react-brk --save`
 
-`yarn add react-breakpoints`
+`yarn add react-brk`
+
+## Breakpoints
+
+`Desktop` minWidth={992}
+
+`Tablet` minWidth={768} maxWidth={991}
+
+`Mobile` maxWidth={767}
+
+`Default` minWidth={768}
 
 ## Example
 
-    import { Desktop, Tablet, Mobile, Default } from 'react-breakpoints'
+    import { Desktop, Tablet, Mobile, Default } from 'react-brk'
 
     const app = () => (
       <div>
@@ -44,11 +53,11 @@ All the credit goes to the folks of [react-responsive](https://github.com/contra
     )
 
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+[build-badge]: https://img.shields.io/travis/woile/react-brk/master.png?style=flat-square
+[build]: https://travis-ci.org/woile/react-brk
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/npm-package
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+[coveralls-badge]: https://img.shields.io/coveralls/woile/react-brk/master.png?style=flat-square
+[coveralls]: https://coveralls.io/github/woile/react-brk

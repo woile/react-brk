@@ -95,7 +95,7 @@ class Demo extends Component {
       <div className="row ">
         <div className="col-xs-12 col-sm-10 col-md-7">
           <SyntaxHighlighter language='jsx' style={okaidia}>{`
-import { Desktop, Tablet, Mobile, Default } from 'react-breakpoints'
+import { Desktop, Tablet, Mobile, Default } from 'react-brk'
 
 const app = () => (
   <div>
