@@ -14,6 +14,9 @@ It's just a wrapper of [react-responsive](https://github.com/contra/react-respon
 
 All the credit goes to the folks of [react-responsive](https://github.com/contra/react-responsive).
 
+## Why this
+
+Instead of a normal css query, this will render or not your react component based on the size of the device.
 
 ## Installation
 
@@ -33,24 +36,26 @@ All the credit goes to the folks of [react-responsive](https://github.com/contra
 
 ## Example
 
-    import { Desktop, Tablet, Mobile, Default } from 'react-brk'
+```js
+import { Desktop, Tablet, Mobile, Default } from 'react-brk'
 
-    const app = () => (
-      <div>
-        <Desktop>
-          <div>Desktop (width > 992px)</div>
-        </Desktop>
-        <Tablet>
-          <div>Tablet (768 < width < 991)</div>
-        </Tablet>
-        <Mobile>
-          <div>Mobile (width < 767)</div>
-        </Mobile>
-        <Default>
-          <div>Default (width > 768)</div>
-        </Default>
-      </div>
-    )
+  const app = () => (
+    <div>
+      <Desktop>
+        <div>Desktop (width > 992px)</div>
+      </Desktop>
+      <Tablet>
+        <div>Tablet (768 < width < 991)</div>
+      </Tablet>
+      <Mobile>
+        <div>Mobile (width < 767)</div>
+      </Mobile>
+      <Default>
+        <div>Default (width > 768)</div>
+      </Default>
+    </div>
+  )
+  ```
 
 
 [build-badge]: https://img.shields.io/travis/Woile/react-brk/master.png?style=flat-square
