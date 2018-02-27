@@ -48,8 +48,8 @@ class Demo extends Component {
           <h2>Installation</h2>
         </div>
         <div className="col-xs-12 col-sm-10 col-md-7">
-          <SyntaxHighlighter language='bash' style={okaidia}>{`npm install react-breakpoints --save`}> </SyntaxHighlighter>
-          <SyntaxHighlighter language='bash' style={okaidia}>{`yarn add react-breakpoints`}> </SyntaxHighlighter>
+          <SyntaxHighlighter language='bash' style={okaidia}>{`npm install react-brk --save`}> </SyntaxHighlighter>
+          <SyntaxHighlighter language='bash' style={okaidia}>{`yarn add react-brk`}> </SyntaxHighlighter>
         </div>
       </div>
 
