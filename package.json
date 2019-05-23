@@ -20,7 +20,7 @@
     "gh-pages": "gh-pages -d demo/dist"
   },
   "dependencies": {
-    "react-responsive": "^4.0.4"
+    "react-responsive": "^6.1.2"
   },
   "peerDependencies": {
     "react": "15.x || 16.x"
