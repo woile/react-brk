@@ -31,7 +31,7 @@
     "nwb": "0.23.x",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-syntax-highlighter": "^7.0.0"
+    "react-syntax-highlighter": "^10.3.0"
   },
   "author": "woile",
   "homepage": "",
