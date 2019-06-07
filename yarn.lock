@@ -6221,9 +6221,9 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-responsive@^6.1.2:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/react-responsive/-/react-responsive-6.1.2.tgz#b9b9cc3ee35f37e80cb036f1c9038ef73aec920b"
+react-responsive@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/react-responsive/-/react-responsive-7.0.0.tgz#0abde0ccbb50e5e8407e3d61dd4696447e7ebd3c"
   dependencies:
     hyphenate-style-name "^1.0.0"
     matchmediaquery "^0.3.0"
