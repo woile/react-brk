@@ -983,9 +983,9 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/karma@^3.0.2":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@types/karma/-/karma-3.0.6.tgz#6aa64400d92dd0af2b5ad6eb2ae875cee061b8ca"
+"@types/karma@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@types/karma/-/karma-4.4.0.tgz#84c084cb394d64b9a28d1425fb4824cd10523221"
   dependencies:
     "@types/bluebird" "*"
     "@types/node" "*"
@@ -5005,9 +5005,9 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jsonschema@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.2.4.tgz#a46bac5d3506a254465bc548876e267c6d0d6464"
+jsonschema@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.2.5.tgz#bab69d97fa28946aec0a56a9cc266d23fe80ae61"
 
 jsprim@^1.2.2:
   version "1.4.1"
@@ -5067,11 +5067,11 @@ karma-sourcemap-loader@0.3.7:
     graceful-fs "^4.1.2"
 
 karma-viewport@^1.0.4:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/karma-viewport/-/karma-viewport-1.0.5.tgz#2a530eefbaecfaeb98615c3f8934e100234647d5"
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/karma-viewport/-/karma-viewport-1.0.6.tgz#c6f1719f9fcdf6ef8f8b5f3d6a00062d1508365a"
   dependencies:
-    "@types/karma" "^3.0.2"
-    jsonschema "^1.2.4"
+    "@types/karma" "^4.4.0"
+    jsonschema "^1.2.5"
 
 karma-webpack@4.0.2:
   version "4.0.2"
