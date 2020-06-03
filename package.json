@@ -26,7 +26,7 @@
     "react": "15.x || 16.x"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^3.0.0",
     "karma-viewport": "^1.0.4",
     "nwb": "0.25.x",
     "react": "^16.2.0",
