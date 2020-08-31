@@ -1011,10 +1011,6 @@
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/@types/anymatch/-/anymatch-1.3.1.tgz#336badc1beecb9dacc38bea2cf32adf627a8421a"
 
-"@types/bluebird@*":
-  version "3.5.26"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.26.tgz#a38c438ae84fa02431d6892edf86e46edcbca291"
-
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -1035,11 +1031,10 @@
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@types/html-minifier-terser/-/html-minifier-terser-5.1.0.tgz#551a4589b6ee2cc9c1dff08056128aec29b94880"
 
-"@types/karma@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@types/karma/-/karma-4.4.0.tgz#84c084cb394d64b9a28d1425fb4824cd10523221"
+"@types/karma@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@types/karma/-/karma-5.0.0.tgz#6750ffc633c0fbc63dfb725146f198e8c3afcd08"
   dependencies:
-    "@types/bluebird" "*"
     "@types/node" "*"
     log4js "^4.0.0"
 
@@ -4815,9 +4810,9 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jsonschema@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.2.5.tgz#bab69d97fa28946aec0a56a9cc266d23fe80ae61"
+jsonschema@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.2.6.tgz#52b0a8e9dc06bbae7295249d03e4b9faee8a0c0b"
 
 jsprim@^1.2.2:
   version "1.4.1"
@@ -4873,11 +4868,11 @@ karma-sourcemap-loader@0.3.7:
     graceful-fs "^4.1.2"
 
 karma-viewport@^1.0.4:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/karma-viewport/-/karma-viewport-1.0.6.tgz#c6f1719f9fcdf6ef8f8b5f3d6a00062d1508365a"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/karma-viewport/-/karma-viewport-1.0.7.tgz#60af9ff08df8e299976f44663f797e3a77951467"
   dependencies:
-    "@types/karma" "^4.4.0"
-    jsonschema "^1.2.5"
+    "@types/karma" "^5.0.0"
+    jsonschema "^1.2.6"
 
 karma-webpack@4.0.2:
   version "4.0.2"
