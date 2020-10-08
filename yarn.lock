@@ -6713,9 +6713,9 @@ react-responsive@^8.0.1:
     prop-types "^15.6.1"
     shallow-equal "^1.1.0"
 
-react-syntax-highlighter@^13.3.1:
-  version "13.5.3"
-  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-13.5.3.tgz#9712850f883a3e19eb858cf93fad7bb357eea9c6"
+react-syntax-highlighter@^15.2.0:
+  version "15.2.0"
+  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-15.2.0.tgz#3d5634d236b8b30646e548d2f2919ee63a0986bd"
   dependencies:
     "@babel/runtime" "^7.3.1"
     highlight.js "^10.1.1"
