@@ -4868,8 +4868,8 @@ karma-sourcemap-loader@0.3.7:
     graceful-fs "^4.1.2"
 
 karma-viewport@^1.0.4:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/karma-viewport/-/karma-viewport-1.0.7.tgz#60af9ff08df8e299976f44663f797e3a77951467"
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/karma-viewport/-/karma-viewport-1.0.8.tgz#528ffa729bad371c303b0c60d148896dba187715"
   dependencies:
     "@types/karma" "^5.0.0"
     jsonschema "^1.2.6"
